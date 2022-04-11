@@ -43,7 +43,7 @@ body {
 .header__second {
     margin-top: 40px;
     border-top: 1px solid black;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 .header__second-logo {
     padding-left: 62px;
@@ -79,6 +79,7 @@ body {
     display: flex;
     align-items: center;
     z-index: 1;
+    margin-bottom: -5px;
 }
 .number {
     margin-right: 142px;
@@ -91,20 +92,20 @@ body {
 }
 .fig {
     position: relative;
-    top: -215px;
+    top: -214.5px;
     left: -8px;
     z-index: 2;
 }
 .building {
     position: relative;
     z-index: 2;
-    margin-top: -866px;
-    left: 691px;
+    margin-top: -864px;
+    left: 690px;
 }
 .main {
     position: relative;
     background-color: white;
-    z-index: 4;
+    z-index: 5;
     margin-top: -20px;
 }
 .text {
@@ -124,7 +125,7 @@ a {
     border-radius: 5px;
     width: 100px;
     color: white;
-    transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2 s ease-in-out 0s;
 }
 .take:hover {
     background-color: #862e14;
