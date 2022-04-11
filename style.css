@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./fonts/gilroy-medium.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilroy-Medium';
+}
+
+.wrapper {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.content {
+    flex: 1 1 auto;
+}
+.letter {
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px black;
+}
+.header {
+}
+.container {
+}
+.logo {
+    text-align: center;
+    padding: 40px 0;
+    background-color: white;
+    position: relative;
+    z-index: 4;
+}
+.logo1 {
+}
+.logo2 {
+}
+.header__second {
+    margin-top: 40px;
+    border-top: 1px solid black;
+    padding-top: 45px;
+}
+.header__second-logo {
+    padding-left: 62px;
+}
+.header__second-logo .logo1 {
+    margin-right: 39px;
+}
+.header__second-logo .logo2 {
+    position: relative;
+    top: -7px;
+}
+.header__second-title-f {
+    margin-left: 62px;
+    margin-top: 70px;
+    font-size: 33px;
+    display: inline-block; 
+    margin-bottom: 8px;
+}
+.header__second-title-s {
+    margin-left: 62px;
+    font-size: 33px;
+    margin-bottom: 76px;
+    display: inline-block;
+}
+.header__second-contacts {
+    background-color: #da4214;
+    height: 80px;
+    max-width: 100%;
+    position: relative;
+    font-size: 23px;
+    color: white;
+    padding-left: 62px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.number {
+    margin-right: 142px;
+}
+.header__second-left {
+    position: relative;
+    z-index: 2;
+}
+.header__second-right {
+}
+.fig {
+    position: relative;
+    top: -215px;
+    left: -8px;
+    z-index: 2;
+}
+.building {
+    position: relative;
+    z-index: 2;
+    margin-top: -866px;
+    left: 691px;
+}
+.main {
+    position: relative;
+    background-color: white;
+    z-index: 4;
+    margin-top: -20px;
+}
+.text {
+    padding-top: 20px;
+    padding-left: 62px;
+}
+a {
+    text-decoration: none;
+    color: #DA4214;
+}
+.take {
+    background-color: #DA4214;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    transition: all 0.2s ease-in-out 0s;
+}
+.take:hover {
+    background-color: #862e14;
+    color: white;
+}
+a:hover {
+    color: #862e14;
+}
